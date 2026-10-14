@@ -1,0 +1,11 @@
+name = "novafps-multiplayer"
+main = "worker.js"
+compatibility_date = "2026-10-13"
+
+[[durable_objects.bindings]]
+name = "NOVA_ROOM"
+class_name = "NovaRoom"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["NovaRoom"]
